@@ -1,0 +1,43 @@
+# Environment variables and secrets
+.env
+.env.txt
+*.env
+agent_config.json
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+*.egg-info/
+build/
+
+# Node & Frontend dependencies
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Note: frontend/dist is intentionally tracked so that users without Node/npm
+# on Kali Linux can run the web dashboard standalone out-of-the-box!
+
+# Archives & Temporary files
+*.zip
+*.tar.gz
+*.tar
+*.gz
+
+# Generated lab records (keep folder with .gitkeep)
+records/*.md
+records/*.html
+!records/.gitkeep
+
+# IDEs & OS metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
